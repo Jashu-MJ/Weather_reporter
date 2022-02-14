@@ -5,23 +5,25 @@ The input will be accepted through command line and the output(temperature) also
 
 ## Requirments:
 
-Python 3.x is required to run the project
+Python 3.x is required to run the project. Ensure if the python3 is installed on the machine.
+
+os,sys and webbrowser are python standard libraries.
 
 ### Required Packages:
 
 1) requests
 2) folium
-3) webbrowser
-4) pandas
-5) logging
+3) pandas
+4) logging
 
 ## How to install and run the project
 
 1) clone the repo.
 2) Open the terminal and traverse to the project folder location.
 3) Run the command chmod u+x weather_report.sh(will make the file executable for the present user)
-4) enter the latitude, longitude and time period value when prompted.
-5) The output will be displyed on the terminal and a html page will be opened displaying the location with temperature and forecast.
+4) run the ./weather_report.sh command on the terminal.
+5) enter the latitude, longitude and time period value when prompted.
+6) The output will be displyed on the terminal and a html page will be opened displaying the location with temperature and forecast.
 
 
 
