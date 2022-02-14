@@ -2,6 +2,7 @@
 
 #˙echo "enter arguments with python command for example: Python3 "example.py" "latitude" "Longitude" "period" "
 
+python3 -m pip install -r Requirments.txt
 
 echo "enter latitude value"
 read latitude
