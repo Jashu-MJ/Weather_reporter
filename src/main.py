@@ -70,7 +70,6 @@ def main():
         # Creating a map using folium displays temperaturem temperature unit and forecast.
         location_map = folium.Map(location=[latitude,longitude],zoom_start=13,tiles="openstreetmap")
         popup_text = "Temperature : {}<br>Temp_unit : {}<br>Forecast : {}<br>"
-        print(period_name)
         #traversing every period object from the response to find the period with mentioned period(default value is Wednesday Night)
         for i, period in period_df.iterrows():
             if period["name"].lower() == period_name.lower():
