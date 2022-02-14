@@ -22,5 +22,5 @@ Installation of packages will be taken care in the weather_report.sh shell scrip
 2) Open the terminal and traverse to the project folder location where the weather_report.sh is present.
 3) Run the command "chmod u+x weather_report.sh" (will make the file executable for the present user)
 4) run the "./weather_report.sh" command on the terminal.
-5) enter the latitude, longitude and time period value when prompted.
+5) enter the latitude(sample input 38.8894 N), longitude(sample input 77.0352 W) and time period value(press enter for default value or type any day) when prompted.
 6) The output will be displayed on the terminal and a html page will be opened displaying the location with temperature and forecast.
