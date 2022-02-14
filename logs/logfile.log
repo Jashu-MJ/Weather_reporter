@@ -1,0 +1,8 @@
+2022-02-14 11:43:10,143 Connecting to https://api.weather.gov/points/38.8894,-77.0352
+2022-02-14 11:43:10,185 Starting new HTTPS connection (1): api.weather.gov:443
+2022-02-14 11:43:10,258 https://api.weather.gov:443 "GET /points/38.8894,-77.0352 HTTP/1.1" 200 806
+2022-02-14 11:43:10,260 Response recieved from https://api.weather.gov/points/38.8894,-77.0352
+2022-02-14 11:43:10,263 Starting new HTTPS connection (1): api.weather.gov:443
+2022-02-14 11:43:10,334 https://api.weather.gov:443 "GET /gridpoints/LWX/96,70/forecast HTTP/1.1" 200 1467
+2022-02-14 11:43:10,335 Forecast response recieved
+2022-02-14 11:43:10,532 Map saved and displayed successfully
